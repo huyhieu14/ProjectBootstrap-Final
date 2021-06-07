@@ -1,0 +1,46 @@
+.nav-vertical {
+  width: 60px;
+  height: 420px;
+  background-color: #1a1a1a;
+  position: relative;
+}
+.nav-vertical li {
+  width: 60px;
+  height: 60px;
+}
+.nav-vertical a {
+  text-decoration: none;
+  color: white;
+  font-size: 27px;
+  font-weight: 1px;
+  line-height: 60px;
+}
+.nav-vertical a:hover {
+  color: #F5C615;
+}
+
+.nav-active {
+  visibility: hidden;
+  width: 0px;
+  height: 360px;
+  position: absolute;
+  background-color: #F5C615;
+  left: 100%;
+  top: 60px;
+  opacity: 0;
+  z-index: 99;
+}
+.nav-active li {
+  list-style: none;
+  margin: auto;
+}
+
+.nav-item:hover {
+  transition: all 0.5s;
+}
+.nav-item:hover .nav-active {
+  visibility: visible;
+  opacity: 1;
+  width: 500px;
+  transition: all 0.5s;
+}
