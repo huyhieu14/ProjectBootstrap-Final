@@ -21,7 +21,7 @@
         position: absolute;
         z-index: 98;
         top: 40%;
-        left: 50%;
+        left: 48%;
         transform: translateX(-50%);
         font-size: 15px;
         font-weight: bold;
@@ -54,12 +54,13 @@
     .slide-header-1 {
         img {
             position: relative;
-            padding: 0 30% 0 30%;
+            margin-left: 20%;;
+            margin-right: 20%;
         }
         .text-header {
             position: absolute;
             z-index: 98;
-            left: 50%;
+            left: 49%;
             transform: translateX(-50%);
             font-size: 123px;
             font-weight: bold;
@@ -131,4 +132,24 @@
             color: white;
         }
     }
+    
 }
+// @media (max-width: 1199.98px){
+//     #myCarouselHeader {
+//         .slide-header-1 {
+//             img{
+//                 transform: translateX(25%);
+//             }
+//         }
+//     }
+// }
+// @media (max-width: 1399.98px) { 
+//     #myCarouselHeader {
+//         .slide-header-1 {
+//             img{
+//                 transform: translateX(40%);
+//             }
+//         }
+//     }
+// }
+

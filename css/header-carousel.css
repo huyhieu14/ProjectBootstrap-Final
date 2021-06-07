@@ -24,7 +24,7 @@
   position: absolute;
   z-index: 98;
   top: 40%;
-  left: 50%;
+  left: 48%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   font-size: 15px;
@@ -62,13 +62,14 @@
 
 #myCarouselHeader .slide-header-1 img {
   position: relative;
-  padding: 0 30% 0 30%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #myCarouselHeader .slide-header-1 .text-header {
   position: absolute;
   z-index: 98;
-  left: 50%;
+  left: 49%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   font-size: 123px;
