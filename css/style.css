@@ -10,6 +10,7 @@
 
 .background-header {
   background-image: url("/asset/background/slide-show-2.jpg");
+  background-repeat: no-repeat;
 }
 
 .menu-header .level-1:hover {
@@ -54,6 +55,7 @@
 .hiden-header {
   height: 250px;
   background-image: url("/asset/background/Dana-home3-slideshow.jpg");
+  background-repeat: no-repeat;
 }
 
 .hiden-header h1 {
@@ -110,6 +112,11 @@
   border: 2px solid #F5C615;
 }
 
+.bestsale {
+  background-image: url("/asset/background/Dana-home1-bg-featured.jpg");
+  background-repeat: no-repeat;
+}
+
 .bestsale .nav-tabs .nav-item.show .nav-link,
 .bestsale .nav-tabs .nav-link.active {
   border-bottom: 2px solid #F5C615;
@@ -118,6 +125,30 @@
 .bestsale .nav-tabs .nav-link {
   border: none;
   color: black;
+}
+
+@media (max-width: 380px) {
+  .popular {
+    background-color: #F6F6F6;
+  }
+  .popular button {
+    color: black;
+  }
+  .popular button:hover {
+    color: #F5C615;
+  }
+  .popular .nav-tabs {
+    font-size: 16px;
+    border: none;
+  }
+  .popular .nav-tabs .nav-link {
+    border: none;
+  }
+  .popular .nav-tabs .nav-link.active {
+    border: none;
+    background-color: #F6F6F6;
+    color: #F5C615;
+  }
 }
 
 @media (max-width: 575.98px) {

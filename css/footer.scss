@@ -12,11 +12,12 @@
         top: 10px;
         background: none;
     }
-      form {
+    form {
+        width: 100%;
         display: inline-block;
         position: relative;
-      }
-      form input {
+    }
+    form input {
         color: #807e8e;
         letter-spacing: 1px;
         background: #363636;
@@ -25,44 +26,40 @@
         height: 46px;
         line-height: 46px;
         padding: 0px 40px 0px 20px;
-        width: 500px;      
+        width: 100%;
+    }
 }
-  }
 
 #footer {
     padding: 100px 0px 0px;
     background: #212121;
-    .top-footer{
-        a{
-        text-decoration: none;
-        transition: all 0.5s ease-out 0s;
-        color: white; 
-           &:hover {
-            color: #f5c615;
+    .top-footer {
+        a {
+            text-decoration: none;
+            transition: all 0.5s ease-out 0s;
+            color: white;
+            &:hover {
+                color: #f5c615;
+            }
         }
-        }
-        h4{
+        h4 {
             margin-bottom: 20px;
         }
-        li{
+        li {
             margin-bottom: 10px;
         }
-        
     }
-    .bottom-footer{
-        .icon-4{
+    .bottom-footer {
+        .icon-4 {
             float: left;
-            .btn{
+            .btn {
                 width: 30px;
-        height: 30px;
+                height: 30px;
                 background-color: white;
-                i{
-                  color: black;
+                i {
+                    color: black;
                 }
             }
         }
     }
 }
-
-
-
