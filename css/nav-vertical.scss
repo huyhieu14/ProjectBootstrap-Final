@@ -15,7 +15,7 @@
         line-height: 60px;
     }
     a:hover {
-        color: #F5C615;
+        color: #f5c615;
     }
 }
 
@@ -24,14 +24,30 @@
     width: 0px;
     height: 360px;
     position: absolute;
-    background-color: #F5C615;
+    background-color: #141414;
     left: 100%;
     top: 60px;
     opacity: 0;
     z-index: 99;
     li {
+        width: 220px;
         list-style: none;
         margin: auto;
+    }
+    img {
+        border: 2px solid #f5c615;
+        width: 360px;
+        height: 360px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 1px;
+        line-height: 60px;
+    }
+    a:hover {
+        color: #f5c615;
     }
 }
 

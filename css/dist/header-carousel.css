@@ -20,7 +20,7 @@
   position: absolute;
   z-index: 98;
   top: 40%;
-  left: 50%;
+  left: 48%;
   transform: translateX(-50%);
   font-size: 15px;
   font-weight: bold;
@@ -50,12 +50,13 @@
 }
 #myCarouselHeader .slide-header-1 img {
   position: relative;
-  padding: 0 30% 0 30%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 #myCarouselHeader .slide-header-1 .text-header {
   position: absolute;
   z-index: 98;
-  left: 50%;
+  left: 49%;
   transform: translateX(-50%);
   font-size: 123px;
   font-weight: bold;
@@ -75,7 +76,7 @@
   top: 45%;
   position: absolute;
   z-index: 98;
-  left: 26%;
+  left: 24%;
   transform: translateX(-50%);
   font-size: 15px;
   font-weight: bold;
@@ -116,9 +117,10 @@
 }
 #myCarouselHeader .slide-header-3 .btn {
   top: 60%;
-  left: 31%;
+  left: 30%;
 }
 #myCarouselHeader .slide-header-3 .btn-z {
+  left: 30%;
   background-color: transparent;
   color: white;
 }

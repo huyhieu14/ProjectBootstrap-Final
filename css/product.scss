@@ -47,6 +47,25 @@
     }
 }
 
+.icon-4 {
+    height: 57px;
+    .btn {
+        background-color: black;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+    }
+    .btn:hover {
+        z-index: 99;
+        transition: all .5s;
+        box-shadow: 0px 0px 10px 0px #ffd84c;
+        background-color: #F5C615;
+        color: white;
+    }
+}
+
 .product-lg {
     width: 100%;
     height: 100%;

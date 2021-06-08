@@ -54,7 +54,8 @@
     .slide-header-1 {
         img {
             position: relative;
-            margin-left: 20%;;
+            margin-left: 20%;
+            ;
             margin-right: 20%;
         }
         .text-header {
@@ -82,7 +83,7 @@
             top: 45%;
             position: absolute;
             z-index: 98;
-            left: 26%;
+            left: 24%;
             transform: translateX(-50%);
             font-size: 15px;
             font-weight: bold;
@@ -125,15 +126,16 @@
         }
         .btn {
             top: 60%;
-            left: 31%;
+            left: 30%;
         }
         .btn-z {
+            left: 30%;
             background-color: transparent;
             color: white;
         }
     }
-    
 }
+
 // @media (max-width: 1199.98px){
 //     #myCarouselHeader {
 //         .slide-header-1 {
@@ -152,4 +154,3 @@
 //         }
 //     }
 // }
-

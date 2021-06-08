@@ -93,7 +93,7 @@
   top: 45%;
   position: absolute;
   z-index: 98;
-  left: 26%;
+  left: 24%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   font-size: 15px;
@@ -143,10 +143,11 @@
 
 #myCarouselHeader .slide-header-3 .btn {
   top: 60%;
-  left: 31%;
+  left: 30%;
 }
 
 #myCarouselHeader .slide-header-3 .btn-z {
+  left: 30%;
   background-color: transparent;
   color: white;
 }
