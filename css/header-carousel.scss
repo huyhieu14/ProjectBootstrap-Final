@@ -45,6 +45,8 @@
         border-radius: 50px;
     }
     .btn:hover {
+            transition: all .8s;
+            box-shadow: 0px 0px 10px 0px #ffffff;
         .btn-icon {
             z-index: 99;
             transition: all .5s;
@@ -92,27 +94,32 @@
             padding-left: 350px;
         }
         .btn {
-            top: 60%;
+            top: 65%;
             left: 9%;
+        }
+        .btn:hover{
+            transition: all .8s;
+            box-shadow: 0px 0px 10px 0px #ffffff;
         }
     }
     .slide-header-3 {
         img {
-            padding-left: 60%;
+            padding-left: 55%;
         }
         h1 {
             top: 30%;
             position: absolute;
             z-index: 98;
-            left: 24%;
+            left: 31%;
             transform: translateX(-50%);
             font-size: 50px;
             font-weight: bold;
             color: white;
         }
         p {
+            cursor: pointer;
             top: 60%;
-            left: 11%;
+            left: 22%;
             width: 150px;
             height: 49px;
             border: 1px solid white;
@@ -124,14 +131,23 @@
             font-weight: bold;
             color: white;
         }
+        p:hover {
+            transition: all .8s;
+            box-shadow: 0px 0px 10px 0px #ffffff;
+        }
         .btn {
             top: 60%;
-            left: 30%;
+            left: 37%;
         }
+        
         .btn-z {
-            left: 30%;
+            left: 37%;
             background-color: transparent;
             color: white;
+        }
+        .btn:hover{
+            transition: all .8s;
+            box-shadow: 0px 0px 10px 0px #ffffff;
         }
     }
 }

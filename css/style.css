@@ -120,10 +120,6 @@
   color: black;
 }
 
-.menu a {
-  text-decoration: none;
-}
-
 @media (max-width: 575.98px) {
   .top-header {
     background-color: black;

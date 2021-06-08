@@ -52,6 +52,13 @@
   font-size: 25px;
 }
 
+#myCarouselHeader .btn:hover {
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  -webkit-box-shadow: 0px 0px 10px 0px #ffffff;
+          box-shadow: 0px 0px 10px 0px #ffffff;
+}
+
 #myCarouselHeader .btn:hover .btn-icon {
   z-index: 99;
   -webkit-transition: all .5s;
@@ -105,19 +112,26 @@
 }
 
 #myCarouselHeader .slide-header-2 .btn {
-  top: 60%;
+  top: 65%;
   left: 9%;
 }
 
+#myCarouselHeader .slide-header-2 .btn:hover {
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  -webkit-box-shadow: 0px 0px 10px 0px #ffffff;
+          box-shadow: 0px 0px 10px 0px #ffffff;
+}
+
 #myCarouselHeader .slide-header-3 img {
-  padding-left: 60%;
+  padding-left: 55%;
 }
 
 #myCarouselHeader .slide-header-3 h1 {
   top: 30%;
   position: absolute;
   z-index: 98;
-  left: 24%;
+  left: 31%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   font-size: 50px;
@@ -126,8 +140,9 @@
 }
 
 #myCarouselHeader .slide-header-3 p {
+  cursor: pointer;
   top: 60%;
-  left: 11%;
+  left: 22%;
   width: 150px;
   height: 49px;
   border: 1px solid white;
@@ -141,14 +156,28 @@
   color: white;
 }
 
+#myCarouselHeader .slide-header-3 p:hover {
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  -webkit-box-shadow: 0px 0px 10px 0px #ffffff;
+          box-shadow: 0px 0px 10px 0px #ffffff;
+}
+
 #myCarouselHeader .slide-header-3 .btn {
   top: 60%;
-  left: 30%;
+  left: 37%;
 }
 
 #myCarouselHeader .slide-header-3 .btn-z {
-  left: 30%;
+  left: 37%;
   background-color: transparent;
   color: white;
+}
+
+#myCarouselHeader .slide-header-3 .btn:hover {
+  -webkit-transition: all .8s;
+  transition: all .8s;
+  -webkit-box-shadow: 0px 0px 10px 0px #ffffff;
+          box-shadow: 0px 0px 10px 0px #ffffff;
 }
 /*# sourceMappingURL=header-carousel.css.map */
